@@ -17,7 +17,6 @@ const Blogs = ({ handleButton, handleReadTime }) => {
 
     return (
         <div className="md:w-2/3 items-center mx-auto">
-            <h2>blogs {blogs.length}</h2>
             <div>
                 {
                     blogs.map(blog => <Blog key={blog.id}
